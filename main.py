@@ -1,7 +1,7 @@
 from telebot import TeleBot
 from telebot import types
 
-TOKEN = 'PLACE TOKEN HERE'
+TOKEN = 'PLACE TOKEN HERE' #it doesn't have to be like that, you can just skip to the next line.
 bot = TeleBot(TOKEN)
 
 GROUP_CHAT_ID = TELEGRAM GROUP ID PLACE HERE
