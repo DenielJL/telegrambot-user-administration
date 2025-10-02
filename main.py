@@ -15,7 +15,7 @@ def main(message):
 
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
     btn_info = types.KeyboardButton(text='YOUR MESSAGE GOES HERE')
-    btn_signup = types.KeyboardButton(text='Хочу записаться на курсы')
+    btn_signup = types.KeyboardButton(text='YOUR MESSAGE GOES HERE')
     btn_mail = types.KeyboardButton(text='YOUR MESSAGE GOES HERE')
     btn_talk = types.KeyboardButton(text='YOUR MESSAGE GOES HERE')
     keyboard.add(btn_info, btn_signup, btn_mail, btn_talk)
